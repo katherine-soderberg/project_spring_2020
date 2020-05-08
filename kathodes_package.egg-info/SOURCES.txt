@@ -1,0 +1,8 @@
+README.md
+setup.py
+kathodes_package/__init__.py
+kathodes_package/sample_file.py
+kathodes_package.egg-info/PKG-INFO
+kathodes_package.egg-info/SOURCES.txt
+kathodes_package.egg-info/dependency_links.txt
+kathodes_package.egg-info/top_level.txt
