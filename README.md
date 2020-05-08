@@ -5,4 +5,4 @@ by specific scanner metrics to perform automated quality control. It produces in
 about which scans are high quality enough to proceed with processing. 
 
 
-To explore the utilities of the package with the available data spreadsheet, perform the following steps (or examine the output in the "Using the package" section of the Jupyter Notebook)
+To explore the utilities of the package with the available data spreadsheet, examine the output in the "Demonstrating the package with example spreadsheet" section of the Jupyter Notebook. 

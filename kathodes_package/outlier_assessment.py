@@ -13,6 +13,7 @@ def outlierStats(outlier_list):
 def outlierExclude(cleaned_dataframe, column_number, stdev_cutoff_factor):
     """Uses outlierStats to determine which scans have outlying volumes above a specified threshold and removes them."""
     import pandas as pd
+    import matplotlib.pyplot as plt
     column_as_series = cleaned_dataframe.iloc[:,column_number]
     column_as_list = column_as_series.tolist()
     mean, stdev = outlierStats(column_as_list)
@@ -25,4 +26,4 @@ def outlierExclude(cleaned_dataframe, column_number, stdev_cutoff_factor):
         else:
             noOutlier_list.append(cleaned_dataframe.iloc[row])
     noOutlier_dataframe = pd.DataFrame(noOutlier_list)
-    return noOutlier_dataframe
+    return column_as_list, noOutlier_dataframe

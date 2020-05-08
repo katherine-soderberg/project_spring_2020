@@ -1,7 +1,8 @@
-# project_spring_2020-Soderberg
+# Kathode's Package: 
 
-[![CircleCI](https://circleci.com/gh/biof309/project_spring_2020/tree/master.svg?style=shield)](https://circleci.com/gh/biof309/project_spring_2020/tree/master)
+This is a package that can read in a table of data describing resting MRI scans and filter 
+by specific scanner metrics to perform automated quality control. It produces information
+about which scans are high quality enough to proceed with processing. 
 
-This file contains the project proposal of Katherine Soderberg.
 
-I plan to write a python script/package that will download data from my lab's (neuroimaging) database, run a baseline quality control to determine which scans are usable, and then initiate preprocessing of those scans. There are thousands of scans, so this would make the intial steps of analysis a lot more efficient. I want to expand on this and will obviously get more specific as I learn more about python scripting, but that is my general plan.
+To explore the utilities of the package with the available data spreadsheet, examine the output in the "Demonstrating the package with example spreadsheet" section of the Jupyter Notebook. 
